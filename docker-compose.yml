@@ -1,0 +1,9 @@
+# docker-compose.yml - create this using your text editor
+version: '3.8'
+services:
+  dev:
+    build: .
+    volumes:
+      - .:/app
+    command: sleep infinity
+    
