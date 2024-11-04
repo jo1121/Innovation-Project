@@ -7,6 +7,7 @@
     python3
     rustc
     cargo
+    rust-analyzer
   ];
 
   enterShell = "echo Welcome to development environment!";
